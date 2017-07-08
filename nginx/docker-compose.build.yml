@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  nginx:
+    image: nginx:1.11
+    build:
+      context: ./
+    ports:
+      - 8080:80
